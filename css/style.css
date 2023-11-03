@@ -1,0 +1,95 @@
+:root{
+    --genislik:1000px;
+    --yukseklik:600px;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{background-color:#f9f9fb;}
+main{
+
+    width: var(--genislik);
+    height: var(--yukseklik);
+    background:url("../images/arkabanner.jpg");
+    background-size:cover;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    margin: 50px auto;
+ 
+}
+
+.box{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+
+}
+.sol{
+    color: aliceblue;
+    margin-left: 70px;
+    flex: 1;
+    /* background-color: aqua; */
+    font-size: 20px;
+}
+.sol >h1{font-size: 50px; }
+.sag >h1{color: rgb(10, 12, 11);}
+
+.sag{
+    color: gray;
+    flex: 1;
+    /* background-color: blueviolet; */
+    margin-right: 70px;
+    text-align: center;
+    margin-top: 0;
+    padding-top: 0;
+}
+.sag >.form-container> h2{color: rgb(10, 12, 11);}
+.sag >.form-container >.forms > label{display: block;}
+.form-container{
+    width: 400px;
+    padding-top: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    margin: 0 auto;
+}
+.forms{
+    padding-bottom: 50px;
+    text-align: left;
+    margin: 50px 80px;
+    /* background-color: brown; */
+}
+.forms input{
+   margin-top: 5px;
+   margin-bottom: 5px;
+    height: 30px;
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid rgb(107, 102, 102);
+}
+.forms button{
+background-color: rgb(240, 140, 68);
+padding: 10px;
+border: none;
+color: #fff;
+width: 100%;
+}
+
+footer{
+    width: var(--genislik);
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    color:gray;
+    margin-top: 15px;
+}
+
+footer h4{
+    color:rgb(20, 20, 20);
+    margin-bottom: 5px;
+}
+footer img{width: 50px;height: 50px;}
+.info{display: flex;}
